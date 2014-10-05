@@ -14,6 +14,10 @@
 		2705529C19E0AB5D00AC2085 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2705529B19E0AB5D00AC2085 /* Images.xcassets */; };
 		2705529F19E0AB5D00AC2085 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2705529D19E0AB5D00AC2085 /* LaunchScreen.xib */; };
 		270552AB19E0AB5D00AC2085 /* Prac2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270552AA19E0AB5D00AC2085 /* Prac2Tests.m */; };
+		270552B619E0AD7300AC2085 /* Background - Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 270552B519E0AD7300AC2085 /* Background - Black.png */; };
+		270552BC19E0B5C900AC2085 /* States.m in Sources */ = {isa = PBXBuildFile; fileRef = 270552BB19E0B5C900AC2085 /* States.m */; };
+		270552BF19E0B8F500AC2085 /* stateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 270552BE19E0B8F500AC2085 /* stateCell.m */; };
+		270552C319E0D1EC00AC2085 /* variables.m in Sources */ = {isa = PBXBuildFile; fileRef = 270552C219E0D1EC00AC2085 /* variables.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		270552A419E0AB5D00AC2085 /* Prac2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prac2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		270552A919E0AB5D00AC2085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		270552AA19E0AB5D00AC2085 /* Prac2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prac2Tests.m; sourceTree = "<group>"; };
+		270552B519E0AD7300AC2085 /* Background - Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background - Black.png"; sourceTree = "<group>"; };
+		270552BA19E0B5C900AC2085 /* States.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = States.h; path = ../States.h; sourceTree = "<group>"; };
+		270552BB19E0B5C900AC2085 /* States.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = States.m; path = ../States.m; sourceTree = "<group>"; };
+		270552BD19E0B8F500AC2085 /* stateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stateCell.h; sourceTree = "<group>"; };
+		270552BE19E0B8F500AC2085 /* stateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stateCell.m; sourceTree = "<group>"; };
+		270552C119E0D1EC00AC2085 /* variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = variables.h; sourceTree = "<group>"; };
+		270552C219E0D1EC00AC2085 /* variables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = variables.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,15 @@
 		2705528D19E0AB5D00AC2085 /* Prac2 */ = {
 			isa = PBXGroup;
 			children = (
+				270552C019E0D1B700AC2085 /* support */,
 				2705529219E0AB5D00AC2085 /* AppDelegate.h */,
 				2705529319E0AB5D00AC2085 /* AppDelegate.m */,
 				2705529519E0AB5D00AC2085 /* ViewController.h */,
 				2705529619E0AB5D00AC2085 /* ViewController.m */,
+				270552BA19E0B5C900AC2085 /* States.h */,
+				270552BB19E0B5C900AC2085 /* States.m */,
+				270552BD19E0B8F500AC2085 /* stateCell.h */,
+				270552BE19E0B8F500AC2085 /* stateCell.m */,
 				2705529819E0AB5D00AC2085 /* Main.storyboard */,
 				2705529B19E0AB5D00AC2085 /* Images.xcassets */,
 				2705529D19E0AB5D00AC2085 /* LaunchScreen.xib */,
@@ -96,6 +112,7 @@
 		2705528E19E0AB5D00AC2085 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				270552B419E0AD5300AC2085 /* img */,
 				2705528F19E0AB5D00AC2085 /* Info.plist */,
 				2705529019E0AB5D00AC2085 /* main.m */,
 			);
@@ -117,6 +134,23 @@
 				270552A919E0AB5D00AC2085 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		270552B419E0AD5300AC2085 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				270552B519E0AD7300AC2085 /* Background - Black.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		270552C019E0D1B700AC2085 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				270552C119E0D1EC00AC2085 /* variables.h */,
+				270552C219E0D1EC00AC2085 /* variables.m */,
+			);
+			name = support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +236,7 @@
 				2705529A19E0AB5D00AC2085 /* Main.storyboard in Resources */,
 				2705529F19E0AB5D00AC2085 /* LaunchScreen.xib in Resources */,
 				2705529C19E0AB5D00AC2085 /* Images.xcassets in Resources */,
+				270552B619E0AD7300AC2085 /* Background - Black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +257,9 @@
 				2705529719E0AB5D00AC2085 /* ViewController.m in Sources */,
 				2705529419E0AB5D00AC2085 /* AppDelegate.m in Sources */,
 				2705529119E0AB5D00AC2085 /* main.m in Sources */,
+				270552C319E0D1EC00AC2085 /* variables.m in Sources */,
+				270552BC19E0B5C900AC2085 /* States.m in Sources */,
+				270552BF19E0B8F500AC2085 /* stateCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
