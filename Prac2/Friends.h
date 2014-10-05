@@ -17,5 +17,6 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *lblDispSur;
 @property (strong, nonatomic) IBOutlet UILabel *lblDispAge;
+@property (strong, nonatomic) IBOutlet UIImageView *imgFnd;
 
 @end

@@ -21,6 +21,8 @@
     maNamesf     =  [NSMutableArray arrayWithObjects:@"Jebus", @"Changoleon", @"Jaime", @"Laura", @"Carmen", @"Pancho", nil];
     maSurnamesf  =  [NSMutableArray arrayWithObjects:@"Nazareth",@"?????", @"Duende", @"Bozzo", @"Salinas", @"Cachondo", nil];
     maAgesf      =  [NSMutableArray arrayWithObjects:@"NPE", @"56", @"36", @"63", @"81", @"52", nil];
+    maPicf       =  [NSMutableArray arrayWithObjects:@"jebus.jpg", @"chango.jpg", @"jaimed.jpg", @"laura.jpg", @"carmen.jpg", @"pancho.jpg", nil];
+    maPicj      =  [NSMutableArray arrayWithObjects:@"lupe.jpg", @"daniel.jpg", @"chiqui.jpg", @"aman.jpg", @"duq.jpg", @"maus.jpg", nil];
     maNamesj     =  [NSMutableArray arrayWithObjects:@"Lupe", @"Daniel", @"Chiquidracula", @"Amandititita", @"Duquesa", @"Jaime", nil];
     maSurnamesj  =  [NSMutableArray arrayWithObjects:@"Esparza",@"Bisogno", @"Ratzinger", @"????", @"De Alba", @"Maussan", nil];
     maAgesj      =  [NSMutableArray arrayWithObjects:@"55", @"41", @"90", @"29", @"100", @"52", nil];
@@ -66,12 +68,14 @@
             self.lblDispNam.text = [maNamesj objectAtIndex:0];
             self.lblDispSur.text = [maSurnamesj objectAtIndex:0];
             self.lblDispAge.text = [maAgesj objectAtIndex:0];
+            self.imgFnd.image    = [UIImage imageNamed:[maPicj objectAtIndex:0]];
             break;
         case 1:
             cell.lblName.text = maNamesf[indexPath.row];
             self.lblDispNam.text = [maNamesf objectAtIndex:0];
             self.lblDispSur.text = [maSurnamesf objectAtIndex:0];
             self.lblDispAge.text = [maAgesf objectAtIndex:0];
+            self.imgFnd.image    = [UIImage imageNamed:[maPicf objectAtIndex:0]];
             break;
         default:
             break;
@@ -93,11 +97,13 @@
             self.lblDispNam.text = maNamesj[indexPath.row];
             self.lblDispSur.text = maSurnamesj[indexPath.row];
             self.lblDispAge.text = maAgesj[indexPath.row];
+            self.imgFnd.image    = [UIImage imageNamed:[maPicj objectAtIndex:indexPath.row]];
             break;
         case 1:
             self.lblDispNam.text = maNamesf [indexPath.row];
             self.lblDispSur.text = maSurnamesf[indexPath.row];
             self.lblDispAge.text = maAgesf[indexPath.row];
+            self.imgFnd.image    = [UIImage imageNamed:[maPicf objectAtIndex:indexPath.row]];
             break;
         default:
             break;
