@@ -13,6 +13,7 @@
   NSMutableArray *maStates;
   NSMutableArray *maCities;
   NSMutableArray *maIstate;
+  NSMutableArray *maIcity;
 
 
   NSString *strState;

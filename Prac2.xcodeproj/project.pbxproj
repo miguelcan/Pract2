@@ -28,6 +28,30 @@
 		270552D519E0D94A00AC2085 /* Aguascalientes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552D419E0D94A00AC2085 /* Aguascalientes.jpg */; };
 		270552D819E0DA2B00AC2085 /* StateDet.m in Sources */ = {isa = PBXBuildFile; fileRef = 270552D719E0DA2B00AC2085 /* StateDet.m */; };
 		270552DB19E0E0BB00AC2085 /* Cities.m in Sources */ = {isa = PBXBuildFile; fileRef = 270552DA19E0E0BB00AC2085 /* Cities.m */; };
+		270552F419E0F34F00AC2085 /* ags.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552DC19E0F34F00AC2085 /* ags.jpg */; };
+		270552F519E0F34F00AC2085 /* calvillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552DD19E0F34F00AC2085 /* calvillo.jpg */; };
+		270552F619E0F34F00AC2085 /* chol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552DE19E0F34F00AC2085 /* chol.jpg */; };
+		270552F719E0F34F00AC2085 /* ense.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552DF19E0F34F00AC2085 /* ense.jpg */; };
+		270552F819E0F34F00AC2085 /* fres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552E019E0F34F00AC2085 /* fres.jpg */; };
+		270552F919E0F34F00AC2085 /* huej.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552E119E0F34F00AC2085 /* huej.jpg */; };
+		270552FA19E0F34F00AC2085 /* jesus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552E219E0F34F00AC2085 /* jesus.jpg */; };
+		270552FB19E0F34F00AC2085 /* luis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552E319E0F34F00AC2085 /* luis.jpg */; };
+		270552FC19E0F34F00AC2085 /* mata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552E419E0F34F00AC2085 /* mata.jpg */; };
+		270552FD19E0F34F00AC2085 /* mexi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552E519E0F34F00AC2085 /* mexi.jpg */; };
+		270552FE19E0F34F00AC2085 /* more.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552E619E0F34F00AC2085 /* more.jpg */; };
+		270552FF19E0F34F00AC2085 /* parras.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552E719E0F34F00AC2085 /* parras.jpg */; };
+		2705530019E0F34F00AC2085 /* pino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552E819E0F34F00AC2085 /* pino.jpg */; };
+		2705530119E0F34F00AC2085 /* sahu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552E919E0F34F00AC2085 /* sahu.jpg */; };
+		2705530219E0F34F00AC2085 /* sali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552EA19E0F34F00AC2085 /* sali.jpg */; };
+		2705530319E0F34F00AC2085 /* sombr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552EB19E0F34F00AC2085 /* sombr.jpg */; };
+		2705530419E0F34F00AC2085 /* tehu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552EC19E0F34F00AC2085 /* tehu.jpg */; };
+		2705530519E0F34F00AC2085 /* tj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552ED19E0F34F00AC2085 /* tj.jpg */; };
+		2705530619E0F34F00AC2085 /* tlaj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552EE19E0F34F00AC2085 /* tlaj.jpg */; };
+		2705530719E0F34F00AC2085 /* tona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552EF19E0F34F00AC2085 /* tona.jpg */; };
+		2705530819E0F34F00AC2085 /* torr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552F019E0F34F00AC2085 /* torr.jpg */; };
+		2705530919E0F34F00AC2085 /* tux.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552F119E0F34F00AC2085 /* tux.jpg */; };
+		2705530A19E0F34F00AC2085 /* zamo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552F219E0F34F00AC2085 /* zamo.jpg */; };
+		2705530B19E0F34F00AC2085 /* zap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552F319E0F34F00AC2085 /* zap.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +97,30 @@
 		270552D719E0DA2B00AC2085 /* StateDet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateDet.m; sourceTree = "<group>"; };
 		270552D919E0E0BB00AC2085 /* Cities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cities.h; sourceTree = "<group>"; };
 		270552DA19E0E0BB00AC2085 /* Cities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cities.m; sourceTree = "<group>"; };
+		270552DC19E0F34F00AC2085 /* ags.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ags.jpg; sourceTree = "<group>"; };
+		270552DD19E0F34F00AC2085 /* calvillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calvillo.jpg; sourceTree = "<group>"; };
+		270552DE19E0F34F00AC2085 /* chol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chol.jpg; sourceTree = "<group>"; };
+		270552DF19E0F34F00AC2085 /* ense.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ense.jpg; sourceTree = "<group>"; };
+		270552E019E0F34F00AC2085 /* fres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fres.jpg; sourceTree = "<group>"; };
+		270552E119E0F34F00AC2085 /* huej.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huej.jpg; sourceTree = "<group>"; };
+		270552E219E0F34F00AC2085 /* jesus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jesus.jpg; sourceTree = "<group>"; };
+		270552E319E0F34F00AC2085 /* luis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luis.jpg; sourceTree = "<group>"; };
+		270552E419E0F34F00AC2085 /* mata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mata.jpg; sourceTree = "<group>"; };
+		270552E519E0F34F00AC2085 /* mexi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mexi.jpg; sourceTree = "<group>"; };
+		270552E619E0F34F00AC2085 /* more.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = more.jpg; sourceTree = "<group>"; };
+		270552E719E0F34F00AC2085 /* parras.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parras.jpg; sourceTree = "<group>"; };
+		270552E819E0F34F00AC2085 /* pino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pino.jpg; sourceTree = "<group>"; };
+		270552E919E0F34F00AC2085 /* sahu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sahu.jpg; sourceTree = "<group>"; };
+		270552EA19E0F34F00AC2085 /* sali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sali.jpg; sourceTree = "<group>"; };
+		270552EB19E0F34F00AC2085 /* sombr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sombr.jpg; sourceTree = "<group>"; };
+		270552EC19E0F34F00AC2085 /* tehu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tehu.jpg; sourceTree = "<group>"; };
+		270552ED19E0F34F00AC2085 /* tj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tj.jpg; sourceTree = "<group>"; };
+		270552EE19E0F34F00AC2085 /* tlaj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tlaj.jpg; sourceTree = "<group>"; };
+		270552EF19E0F34F00AC2085 /* tona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tona.jpg; sourceTree = "<group>"; };
+		270552F019E0F34F00AC2085 /* torr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = torr.jpg; sourceTree = "<group>"; };
+		270552F119E0F34F00AC2085 /* tux.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tux.jpg; sourceTree = "<group>"; };
+		270552F219E0F34F00AC2085 /* zamo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zamo.jpg; sourceTree = "<group>"; };
+		270552F319E0F34F00AC2085 /* zap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zap.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +213,30 @@
 		270552B419E0AD5300AC2085 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				270552DC19E0F34F00AC2085 /* ags.jpg */,
+				270552DD19E0F34F00AC2085 /* calvillo.jpg */,
+				270552DE19E0F34F00AC2085 /* chol.jpg */,
+				270552DF19E0F34F00AC2085 /* ense.jpg */,
+				270552E019E0F34F00AC2085 /* fres.jpg */,
+				270552E119E0F34F00AC2085 /* huej.jpg */,
+				270552E219E0F34F00AC2085 /* jesus.jpg */,
+				270552E319E0F34F00AC2085 /* luis.jpg */,
+				270552E419E0F34F00AC2085 /* mata.jpg */,
+				270552E519E0F34F00AC2085 /* mexi.jpg */,
+				270552E619E0F34F00AC2085 /* more.jpg */,
+				270552E719E0F34F00AC2085 /* parras.jpg */,
+				270552E819E0F34F00AC2085 /* pino.jpg */,
+				270552E919E0F34F00AC2085 /* sahu.jpg */,
+				270552EA19E0F34F00AC2085 /* sali.jpg */,
+				270552EB19E0F34F00AC2085 /* sombr.jpg */,
+				270552EC19E0F34F00AC2085 /* tehu.jpg */,
+				270552ED19E0F34F00AC2085 /* tj.jpg */,
+				270552EE19E0F34F00AC2085 /* tlaj.jpg */,
+				270552EF19E0F34F00AC2085 /* tona.jpg */,
+				270552F019E0F34F00AC2085 /* torr.jpg */,
+				270552F119E0F34F00AC2085 /* tux.jpg */,
+				270552F219E0F34F00AC2085 /* zamo.jpg */,
+				270552F319E0F34F00AC2085 /* zap.jpg */,
 				270552D419E0D94A00AC2085 /* Aguascalientes.jpg */,
 				270552C419E0D8FF00AC2085 /* baja.jpg */,
 				270552C519E0D8FF00AC2085 /* Coahuila.jpg */,
@@ -268,16 +340,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				270552D019E0D8FF00AC2085 /* Michoacan.jpg in Resources */,
+				2705530019E0F34F00AC2085 /* pino.jpg in Resources */,
+				270552FC19E0F34F00AC2085 /* mata.jpg in Resources */,
+				2705530919E0F34F00AC2085 /* tux.jpg in Resources */,
+				270552F619E0F34F00AC2085 /* chol.jpg in Resources */,
+				270552F719E0F34F00AC2085 /* ense.jpg in Resources */,
 				2705529A19E0AB5D00AC2085 /* Main.storyboard in Resources */,
+				2705530419E0F34F00AC2085 /* tehu.jpg in Resources */,
+				270552F419E0F34F00AC2085 /* ags.jpg in Resources */,
+				270552FD19E0F34F00AC2085 /* mexi.jpg in Resources */,
+				2705530719E0F34F00AC2085 /* tona.jpg in Resources */,
+				2705530819E0F34F00AC2085 /* torr.jpg in Resources */,
 				270552D519E0D94A00AC2085 /* Aguascalientes.jpg in Resources */,
+				270552FE19E0F34F00AC2085 /* more.jpg in Resources */,
 				270552CC19E0D8FF00AC2085 /* baja.jpg in Resources */,
+				2705530619E0F34F00AC2085 /* tlaj.jpg in Resources */,
+				270552FF19E0F34F00AC2085 /* parras.jpg in Resources */,
+				270552F819E0F34F00AC2085 /* fres.jpg in Resources */,
 				2705529F19E0AB5D00AC2085 /* LaunchScreen.xib in Resources */,
 				270552CD19E0D8FF00AC2085 /* Coahuila.jpg in Resources */,
+				2705530319E0F34F00AC2085 /* sombr.jpg in Resources */,
+				270552FA19E0F34F00AC2085 /* jesus.jpg in Resources */,
+				270552F519E0F34F00AC2085 /* calvillo.jpg in Resources */,
 				2705529C19E0AB5D00AC2085 /* Images.xcassets in Resources */,
 				270552B619E0AD7300AC2085 /* Background - Black.png in Resources */,
+				270552F919E0F34F00AC2085 /* huej.jpg in Resources */,
+				2705530A19E0F34F00AC2085 /* zamo.jpg in Resources */,
 				270552D119E0D8FF00AC2085 /* Oaxaca.jpg in Resources */,
+				270552FB19E0F34F00AC2085 /* luis.jpg in Resources */,
+				2705530219E0F34F00AC2085 /* sali.jpg in Resources */,
+				2705530519E0F34F00AC2085 /* tj.jpg in Resources */,
 				270552D219E0D8FF00AC2085 /* Puebla.jpg in Resources */,
 				270552CE19E0D8FF00AC2085 /* Jalisco.jpg in Resources */,
+				2705530B19E0F34F00AC2085 /* zap.jpg in Resources */,
+				2705530119E0F34F00AC2085 /* sahu.jpg in Resources */,
 				270552D319E0D8FF00AC2085 /* Zacatecas.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

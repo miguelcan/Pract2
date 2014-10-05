@@ -22,6 +22,9 @@
     maIstate    =  [NSMutableArray arrayWithObjects: @"Aguascalientes.jpg", @"baja.jpg", @"Coahuila.jpg", @"Jalisco.jpg", @"Michoacan.jpg", @"Oaxaca.jpg",
                     @"Puebla.jpg", @"Zacatecas.jpg", nil];
     maCities    =  [NSMutableArray arrayWithObjects: @"Aguascalientes",@"Calvillo", @"Jesus Maria", @"Tijuana", @"Ensenada", @"Mexicali", @"Torreon", @"Matamoros", @"Parras", @"Zapopan", @"Ranchomulco", @"Tronala", @"Zamora", @"Morelia", @"Sahuayo", @"Salina Cruz", @"Tuxtepec", @"Pinotepa", @"Cholula", @"Tehuacan", @"Huejotzingo", @"Sombrerete", @"Fresnillo", @"Luis Moya", nil];
+    
+    maIcity     =   [NSMutableArray arrayWithObjects: @"ags.jpg", @"calvillo.jpg", @"jesus.jpg", @"tj.jpg", @"ense.jpg", @"mexi.jpg", @"torr.jpg", @"mata.jpg", @"parras.jpg", @"zap.jpg", @"tlaj.jpg", @"tona.jpg", @"zamo.jpg", @"more.jpg", @"sahu.jpg", @"sali.jpg", @"tux.jpg", @"pino.jpg", @"chol.jpg", @"tehu.jpg", @"huej.jpg", @"sombre.jpg", @"fres.jpg",@"luis.jpg",nil];
+    
     self.lblCityTxt.text = strState;
     self.lblCity.image = [UIImage imageNamed:[maIstate objectAtIndex:posState]];
 }
@@ -46,7 +49,7 @@ Table Functions
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 64;
+    return 94;
 }
 //-------------------------------------------------------------------------------
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -72,6 +75,7 @@ Table Functions
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     self.lblCityTxt.text = maCities[(posState*3)+indexPath.row];
+    self.lblCity.image = [UIImage imageNamed:[maIcity objectAtIndex:(posState*3)+indexPath.row]];
 }
 
 /*
