@@ -52,6 +52,8 @@
 		2705530919E0F34F00AC2085 /* tux.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552F119E0F34F00AC2085 /* tux.jpg */; };
 		2705530A19E0F34F00AC2085 /* zamo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552F219E0F34F00AC2085 /* zamo.jpg */; };
 		2705530B19E0F34F00AC2085 /* zap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552F319E0F34F00AC2085 /* zap.jpg */; };
+		2705530E19E0F94700AC2085 /* Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = 2705530D19E0F94700AC2085 /* Friends.m */; };
+		2705531119E0F9CD00AC2085 /* ListFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 2705531019E0F9CD00AC2085 /* ListFriend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,10 @@
 		270552F119E0F34F00AC2085 /* tux.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tux.jpg; sourceTree = "<group>"; };
 		270552F219E0F34F00AC2085 /* zamo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zamo.jpg; sourceTree = "<group>"; };
 		270552F319E0F34F00AC2085 /* zap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zap.jpg; sourceTree = "<group>"; };
+		2705530C19E0F94700AC2085 /* Friends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friends.h; sourceTree = "<group>"; };
+		2705530D19E0F94700AC2085 /* Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friends.m; sourceTree = "<group>"; };
+		2705530F19E0F9CD00AC2085 /* ListFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListFriend.h; sourceTree = "<group>"; };
+		2705531019E0F9CD00AC2085 /* ListFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListFriend.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,8 +179,12 @@
 				270552BB19E0B5C900AC2085 /* States.m */,
 				270552BD19E0B8F500AC2085 /* stateCell.h */,
 				270552BE19E0B8F500AC2085 /* stateCell.m */,
+				2705530F19E0F9CD00AC2085 /* ListFriend.h */,
+				2705531019E0F9CD00AC2085 /* ListFriend.m */,
 				270552D919E0E0BB00AC2085 /* Cities.h */,
 				270552DA19E0E0BB00AC2085 /* Cities.m */,
+				2705530C19E0F94700AC2085 /* Friends.h */,
+				2705530D19E0F94700AC2085 /* Friends.m */,
 				2705529819E0AB5D00AC2085 /* Main.storyboard */,
 				2705529B19E0AB5D00AC2085 /* Images.xcassets */,
 				2705529D19E0AB5D00AC2085 /* LaunchScreen.xib */,
@@ -395,6 +405,8 @@
 				2705529719E0AB5D00AC2085 /* ViewController.m in Sources */,
 				2705529419E0AB5D00AC2085 /* AppDelegate.m in Sources */,
 				2705529119E0AB5D00AC2085 /* main.m in Sources */,
+				2705531119E0F9CD00AC2085 /* ListFriend.m in Sources */,
+				2705530E19E0F94700AC2085 /* Friends.m in Sources */,
 				270552C319E0D1EC00AC2085 /* variables.m in Sources */,
 				270552DB19E0E0BB00AC2085 /* Cities.m in Sources */,
 				270552D819E0DA2B00AC2085 /* StateDet.m in Sources */,
