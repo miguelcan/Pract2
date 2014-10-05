@@ -12,5 +12,8 @@
 
   NSMutableArray *maStates;
   NSMutableArray *maCities;
+  NSMutableArray *maIstate;
 
+  NSString *strState;
+  NSInteger posState;
 @end

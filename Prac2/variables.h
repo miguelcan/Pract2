@@ -12,5 +12,9 @@
 
 extern  NSMutableArray *maStates;
 extern  NSMutableArray *maCities;
+extern  NSMutableArray *maIstate;
+
+extern NSString *strState;
+extern NSInteger posState;
 
 @end

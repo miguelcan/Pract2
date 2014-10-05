@@ -64,16 +64,14 @@
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    /* strSelectedName     = [NSString stringWithFormat:@"%@", maNames[indexPath.row]];
-     strSelectedImg      = [NSString stringWithFormat:@"%@", maImages[indexPath.row]];
-     
-     NSLog(@"strSelectedName %@", strSelectedName);
-     NSLog(@"strSelectedImg %@", strSelectedImg);
+    strState     = [NSString stringWithFormat:@"%@", maStates[indexPath.row]];
+    posState     = indexPath.row;
+    
      
      NSString * storyboardName = @"Main";
      UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
-     UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"Details"];
-     [self presentViewController:vc animated:YES completion:nil];*/
+     UIViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"StateDet"];
+     [self presentViewController:vc animated:YES completion:nil];
 }
 
 /*

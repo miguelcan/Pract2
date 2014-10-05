@@ -18,6 +18,15 @@
 		270552BC19E0B5C900AC2085 /* States.m in Sources */ = {isa = PBXBuildFile; fileRef = 270552BB19E0B5C900AC2085 /* States.m */; };
 		270552BF19E0B8F500AC2085 /* stateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 270552BE19E0B8F500AC2085 /* stateCell.m */; };
 		270552C319E0D1EC00AC2085 /* variables.m in Sources */ = {isa = PBXBuildFile; fileRef = 270552C219E0D1EC00AC2085 /* variables.m */; };
+		270552CC19E0D8FF00AC2085 /* baja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552C419E0D8FF00AC2085 /* baja.jpg */; };
+		270552CD19E0D8FF00AC2085 /* Coahuila.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552C519E0D8FF00AC2085 /* Coahuila.jpg */; };
+		270552CE19E0D8FF00AC2085 /* Jalisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552C619E0D8FF00AC2085 /* Jalisco.jpg */; };
+		270552D019E0D8FF00AC2085 /* Michoacan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552C819E0D8FF00AC2085 /* Michoacan.jpg */; };
+		270552D119E0D8FF00AC2085 /* Oaxaca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552C919E0D8FF00AC2085 /* Oaxaca.jpg */; };
+		270552D219E0D8FF00AC2085 /* Puebla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552CA19E0D8FF00AC2085 /* Puebla.jpg */; };
+		270552D319E0D8FF00AC2085 /* Zacatecas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552CB19E0D8FF00AC2085 /* Zacatecas.jpg */; };
+		270552D519E0D94A00AC2085 /* Aguascalientes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 270552D419E0D94A00AC2085 /* Aguascalientes.jpg */; };
+		270552D819E0DA2B00AC2085 /* StateDet.m in Sources */ = {isa = PBXBuildFile; fileRef = 270552D719E0DA2B00AC2085 /* StateDet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,16 @@
 		270552BE19E0B8F500AC2085 /* stateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stateCell.m; sourceTree = "<group>"; };
 		270552C119E0D1EC00AC2085 /* variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = variables.h; sourceTree = "<group>"; };
 		270552C219E0D1EC00AC2085 /* variables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = variables.m; sourceTree = "<group>"; };
+		270552C419E0D8FF00AC2085 /* baja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baja.jpg; sourceTree = "<group>"; };
+		270552C519E0D8FF00AC2085 /* Coahuila.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Coahuila.jpg; sourceTree = "<group>"; };
+		270552C619E0D8FF00AC2085 /* Jalisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jalisco.jpg; sourceTree = "<group>"; };
+		270552C819E0D8FF00AC2085 /* Michoacan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Michoacan.jpg; sourceTree = "<group>"; };
+		270552C919E0D8FF00AC2085 /* Oaxaca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oaxaca.jpg; sourceTree = "<group>"; };
+		270552CA19E0D8FF00AC2085 /* Puebla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Puebla.jpg; sourceTree = "<group>"; };
+		270552CB19E0D8FF00AC2085 /* Zacatecas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zacatecas.jpg; sourceTree = "<group>"; };
+		270552D419E0D94A00AC2085 /* Aguascalientes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aguascalientes.jpg; sourceTree = "<group>"; };
+		270552D619E0DA2B00AC2085 /* StateDet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateDet.h; sourceTree = "<group>"; };
+		270552D719E0DA2B00AC2085 /* StateDet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateDet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +117,8 @@
 				2705529519E0AB5D00AC2085 /* ViewController.h */,
 				2705529619E0AB5D00AC2085 /* ViewController.m */,
 				270552BA19E0B5C900AC2085 /* States.h */,
+				270552D619E0DA2B00AC2085 /* StateDet.h */,
+				270552D719E0DA2B00AC2085 /* StateDet.m */,
 				270552BB19E0B5C900AC2085 /* States.m */,
 				270552BD19E0B8F500AC2085 /* stateCell.h */,
 				270552BE19E0B8F500AC2085 /* stateCell.m */,
@@ -139,6 +160,14 @@
 		270552B419E0AD5300AC2085 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				270552D419E0D94A00AC2085 /* Aguascalientes.jpg */,
+				270552C419E0D8FF00AC2085 /* baja.jpg */,
+				270552C519E0D8FF00AC2085 /* Coahuila.jpg */,
+				270552C619E0D8FF00AC2085 /* Jalisco.jpg */,
+				270552C819E0D8FF00AC2085 /* Michoacan.jpg */,
+				270552C919E0D8FF00AC2085 /* Oaxaca.jpg */,
+				270552CA19E0D8FF00AC2085 /* Puebla.jpg */,
+				270552CB19E0D8FF00AC2085 /* Zacatecas.jpg */,
 				270552B519E0AD7300AC2085 /* Background - Black.png */,
 			);
 			name = img;
@@ -233,10 +262,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270552D019E0D8FF00AC2085 /* Michoacan.jpg in Resources */,
 				2705529A19E0AB5D00AC2085 /* Main.storyboard in Resources */,
+				270552D519E0D94A00AC2085 /* Aguascalientes.jpg in Resources */,
+				270552CC19E0D8FF00AC2085 /* baja.jpg in Resources */,
 				2705529F19E0AB5D00AC2085 /* LaunchScreen.xib in Resources */,
+				270552CD19E0D8FF00AC2085 /* Coahuila.jpg in Resources */,
 				2705529C19E0AB5D00AC2085 /* Images.xcassets in Resources */,
 				270552B619E0AD7300AC2085 /* Background - Black.png in Resources */,
+				270552D119E0D8FF00AC2085 /* Oaxaca.jpg in Resources */,
+				270552D219E0D8FF00AC2085 /* Puebla.jpg in Resources */,
+				270552CE19E0D8FF00AC2085 /* Jalisco.jpg in Resources */,
+				270552D319E0D8FF00AC2085 /* Zacatecas.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +295,7 @@
 				2705529419E0AB5D00AC2085 /* AppDelegate.m in Sources */,
 				2705529119E0AB5D00AC2085 /* main.m in Sources */,
 				270552C319E0D1EC00AC2085 /* variables.m in Sources */,
+				270552D819E0DA2B00AC2085 /* StateDet.m in Sources */,
 				270552BC19E0B5C900AC2085 /* States.m in Sources */,
 				270552BF19E0B8F500AC2085 /* stateCell.m in Sources */,
 			);
