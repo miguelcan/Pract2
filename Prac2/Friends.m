@@ -63,8 +63,15 @@
     switch (self.segOut.selectedSegmentIndex) {
         case 0:
             cell.lblName.text = maNamesj[indexPath.row];
+            self.lblDispNam.text = [maNamesj objectAtIndex:0];
+            self.lblDispSur.text = [maSurnamesj objectAtIndex:0];
+            self.lblDispAge.text = [maAgesj objectAtIndex:0];
             break;
         case 1:
+            cell.lblName.text = maNamesf[indexPath.row];
+            self.lblDispNam.text = [maNamesf objectAtIndex:0];
+            self.lblDispSur.text = [maSurnamesf objectAtIndex:0];
+            self.lblDispAge.text = [maAgesf objectAtIndex:0];
             break;
         default:
             break;
@@ -81,8 +88,20 @@
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //self.lblCityTxt.text = maCities[(posState*3)+indexPath.row];
-    //self.lblCity.image = [UIImage imageNamed:[maIcity objectAtIndex:(posState*3)+indexPath.row]];
+    switch (self.segOut.selectedSegmentIndex) {
+        case 0:
+            self.lblDispNam.text = maNamesj[indexPath.row];
+            self.lblDispSur.text = maSurnamesj[indexPath.row];
+            self.lblDispAge.text = maAgesj[indexPath.row];
+            break;
+        case 1:
+            self.lblDispNam.text = maNamesf [indexPath.row];
+            self.lblDispSur.text = maSurnamesf[indexPath.row];
+            self.lblDispAge.text = maAgesf[indexPath.row];
+            break;
+        default:
+            break;
+    }
 }
 
 /*
@@ -96,5 +115,7 @@
 */
 
 - (IBAction)segFriends:(id)sender {
+    [self.tblFirends reloadData];
+    [super viewDidLoad];
     }
 @end

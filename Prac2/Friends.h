@@ -12,5 +12,10 @@
 
 - (IBAction)segFriends:(id)sender;
 @property (strong, nonatomic) IBOutlet UISegmentedControl *segOut;
+@property (strong, nonatomic) IBOutlet UITableView *tblFirends;
+@property (strong, nonatomic) IBOutlet UILabel *lblDispNam;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblDispSur;
+@property (strong, nonatomic) IBOutlet UILabel *lblDispAge;
 
 @end
