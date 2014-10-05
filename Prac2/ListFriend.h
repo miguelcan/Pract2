@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ListFriend : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *lblName;
 
 @end

@@ -8,7 +8,7 @@
 
 #import "Friends.h"
 #import "ListFriend.h"
-
+#import "variables.h"
 @interface Friends ()
 
 @end
@@ -18,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    maNamesf     =  [NSMutableArray arrayWithObjects:@"Jebus", @"Changoleon", @"Jaime", @"Laura", @"Carmen", @"Pancho", nil];
+    maSurnamesf  =  [NSMutableArray arrayWithObjects:@"Nazareth",@"?????", @"Duende", @"Bozzo", @"Salinas", @"Cachondo", nil];
+    maAgesf      =  [NSMutableArray arrayWithObjects:@"NPE", @"56", @"36", @"63", @"81", @"52", nil];
+    maNamesj     =  [NSMutableArray arrayWithObjects:@"Lupe", @"Daniel", @"Chiquidracula", @"Amandititita", @"Duquesa", @"Jaime", nil];
+    maSurnamesj  =  [NSMutableArray arrayWithObjects:@"Esparza",@"Bisogno", @"Ratzinger", @"????", @"De Alba", @"Maussan", nil];
+    maAgesj      =  [NSMutableArray arrayWithObjects:@"55", @"41", @"90", @"29", @"100", @"52", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,6 +60,16 @@
         cell = [[ListFriend alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
+    switch (self.segOut.selectedSegmentIndex) {
+        case 0:
+            cell.lblName.text = maNamesj[indexPath.row];
+            break;
+        case 1:
+            break;
+        default:
+            break;
+    }
+
    /* if (posState == 0) {
         cell.lblCity.text = maCities[indexPath.row];
     } else {
@@ -79,4 +95,6 @@
 }
 */
 
+- (IBAction)segFriends:(id)sender {
+    }
 @end

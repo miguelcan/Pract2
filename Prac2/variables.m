@@ -14,7 +14,14 @@
   NSMutableArray *maCities;
   NSMutableArray *maIstate;
   NSMutableArray *maIcity;
-
+  NSMutableArray *maNamesf;
+  NSMutableArray *maSurnamesf;
+  NSMutableArray *maAgesf;
+  NSMutableArray *maPicf;
+  NSMutableArray *maNamesj;
+  NSMutableArray *maSurnamesj;
+  NSMutableArray *maAgesj;
+  NSMutableArray *maPicj;
 
   NSString *strState;
   NSInteger posState;

@@ -10,4 +10,7 @@
 
 @interface Friends : UIViewController
 
+- (IBAction)segFriends:(id)sender;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segOut;
+
 @end
